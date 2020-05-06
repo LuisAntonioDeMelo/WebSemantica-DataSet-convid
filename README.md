@@ -4,6 +4,7 @@ Aplicação Web Semântica para dataSet de Covid19 com MongoDb
 <h4>Gerar estrutura para dataset <b>Coronavirus disease (COVID-19)</b> <h4>
 <p>fornecido por : Situation Report– 106 
 Data as received by WHO from national authorities by 10:00 CEST, 5 May 2020
+https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200505covid-19-sitrep-106.pdf?sfvrsn=47090f63_2
 </p>
 <br/>
 <p>
