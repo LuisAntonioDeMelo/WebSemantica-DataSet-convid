@@ -18,13 +18,12 @@ public class Covid19Data implements Serializable {
 	private ObjectId _id;
 
 	@NotNull
-	private String PaisReportado;
-	private Integer totalCasos;
-	private Integer totalNovosCasos;
-	private Integer confirmados;
+	private String  paisReportado;
+	private Integer totalCasosConfirmados;
+	private Integer novosCasosConfirmados;
 	private Integer baixas;
-	private Integer casosReportados;
-	private String tipoDeTransmissao;
+	private Integer novasBaixas;
+	private String  tipoDeTransmissao;
 	private Integer diasDesdeOUltimoCaso;
 
 	public String get_id() {
@@ -34,37 +33,13 @@ public class Covid19Data implements Serializable {
 	public void set_id(ObjectId _id) {
 		this._id = _id;
 	}
-
+	
 	public String getPaisReportado() {
-		return PaisReportado;
+		return paisReportado;
 	}
 
 	public void setPaisReportado(String paisReportado) {
-		PaisReportado = paisReportado;
-	}
-
-	public Integer getTotalCasos() {
-		return totalCasos;
-	}
-
-	public void setTotalCasos(Integer totalCasos) {
-		this.totalCasos = totalCasos;
-	}
-
-	public Integer getTotalNovosCasos() {
-		return totalNovosCasos;
-	}
-
-	public void setTotalNovosCasos(Integer totalNovosCasos) {
-		this.totalNovosCasos = totalNovosCasos;
-	}
-
-	public Integer getConfirmados() {
-		return confirmados;
-	}
-
-	public void setConfirmados(Integer confirmados) {
-		this.confirmados = confirmados;
+		this.paisReportado = paisReportado;
 	}
 
 	public Integer getBaixas() {
@@ -74,15 +49,6 @@ public class Covid19Data implements Serializable {
 	public void setBaixas(Integer baixas) {
 		this.baixas = baixas;
 	}
-
-	public Integer getCasosReportados() {
-		return casosReportados;
-	}
-
-	public void setCasosReportados(Integer casosReportados) {
-		this.casosReportados = casosReportados;
-	}
-
 	public String getTipoDeTransmissao() {
 		return tipoDeTransmissao;
 	}
@@ -98,5 +64,31 @@ public class Covid19Data implements Serializable {
 	public void setDiasDesdeOUltimoCaso(Integer diasDesdeOUltimoCaso) {
 		this.diasDesdeOUltimoCaso = diasDesdeOUltimoCaso;
 	}
+
+	public Integer getTotalCasosConfirmados() {
+		return totalCasosConfirmados;
+	}
+
+	public void setTotalCasosConfirmados(Integer totalCasosConfirmados) {
+		this.totalCasosConfirmados = totalCasosConfirmados;
+	}
+
+	public Integer getNovosCasosConfirmados() {
+		return novosCasosConfirmados;
+	}
+
+	public void setNovosCasosConfirmados(Integer novosCasosConfirmados) {
+		this.novosCasosConfirmados = novosCasosConfirmados;
+	}
+
+	public Integer getNovasBaixas() {
+		return novasBaixas;
+	}
+
+	public void setNovasBaixas(Integer novasBaixas) {
+		this.novasBaixas = novasBaixas;
+	}
+	
+	
 
 }
